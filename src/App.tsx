@@ -1,9 +1,9 @@
-import Home from "./routes/Home"
+import Registration from "./routes/Registration"
 
 function App() {
 
   return (
-    <Home/>
+    <Registration/>
   )
 }
 

@@ -1,9 +1,13 @@
 import './styles.css';
 
-export default function ButtonPromotion() {
+type Props = {
+    name: string;
+}
+
+export default function ButtonPromotion({ name }: Props) {
     return(
         <div className="btn-promotion">
-            Ver promoção
+           {name}
         </div>
     );
 }

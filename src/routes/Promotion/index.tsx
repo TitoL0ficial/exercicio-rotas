@@ -1,15 +1,15 @@
+import ButtonPromotion from "../../components/ButtonPromotion";
 import Header from "../../components/Header";
 import PageCard from "../../components/PageCard";
-import ButtonPromotion from '../../components/ButtonPromotion';
 
-export default function Home() {
+export default function Promotion() {
     return(
         <>
         <Header/>
         <main>
             <div className="container">
-                <PageCard name="Página inicial"/>
-                <ButtonPromotion name="Ver promoção"/> 
+                <PageCard name="Página de promoção"/>
+                <ButtonPromotion name="Quero participar"/> 
             </div>   
         </main>
         </>
