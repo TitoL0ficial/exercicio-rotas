@@ -1,13 +1,13 @@
 import './styles.css';
 
 type Props = {
-    name: string;
+    title: string;
 }
 
-export default function PageCard({ name }: Props) {
+export default function PageCard({ title }: Props) {
     return(
-        <div className="page-card container">
-            <h2>{name}</h2>
+        <div className="page-card">
+            <h2>{title}</h2>
         </div>
     );
 }
